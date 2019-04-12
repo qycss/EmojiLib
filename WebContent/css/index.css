@@ -1,0 +1,250 @@
+.search
+		{
+			display: block;
+			width: 100px;
+			height: 50px;
+			padding: 15px;
+			background-repeat: no-repeat;
+			background-color: #cee8da;
+			border:1px solid rgba(255,255,255,0.6);
+			border-radius:3px;
+			font-size: 20px; 
+			font-weight: bold;
+			color: #185c45;
+			font-family: "glyphicons-halflings-regular";
+			text-align: center;
+			position: absolute;
+			top: 30%;
+			left: 1000px;
+			opacity: 0.8;
+			cursor: pointer;
+			transform: scale(1);
+		
+	
+		}
+		.search:hover {
+			background-color: #cde2d7;
+
+		}
+
+		
+		.text-center1
+		{
+			display: block;
+			width: 450px;
+			height: 20px;
+			padding: 15px;
+
+			font-size: 16px;
+			color: #888888;
+			font-weight: bold;
+			font-family: "glyphicons-halflings-regular";
+			border:1px solid rgba(255,255,255,0.6);
+			border-radius:3px;
+			position: absolute;
+			top: 30%;
+			left: 500px;
+			opacity: 0.8;
+			background-color: #97E4C9;
+			transform: scale(1);
+		
+	
+		}
+		.text-center1:hover {
+			background-color: #74D6B6;
+
+		}
+		
+#btnlogin
+		{
+			display: block;
+			width: 100px;
+			height: 43px;
+			padding: 15px;
+			background-color: white;
+			border:1px solid rgba(255,255,255,0.6);
+			border-radius:3px;
+			font-size: 20px; 
+			font-weight: bold;
+			color: #185c45;
+			font-family: "glyphicons-halflings-regular";
+			text-align: center;
+			position: absolute;
+			top: 10px;
+			right: 50px;
+			opacity: 0.8;
+			cursor: pointer;
+			transform: scale(1);
+		}
+#btnlogin:hover{
+	color:#408080;
+}
+
+#btnregister
+		{
+			display: block;
+			width: 100px;
+			height: 43px;
+			padding: 15px;
+			background-color: white;
+			border:1px solid rgba(255,255,255,0.6);
+			border-radius:3px;
+			font-size: 20px; 
+			font-weight: bold;
+			color: #185c45;
+			font-family: "glyphicons-halflings-regular";
+			text-align: center;
+			position: absolute;
+			top: 10px;
+			right: 150px;
+			opacity: 0.8;
+			cursor: pointer;
+			transform: scale(1);
+}
+#btnregister:hover{
+	color:#408080;
+}
+#hellouser
+		{
+			display: block;
+			width: 100px;
+			height: 43px;
+			padding: 15px;
+			background-color: white;
+			border:1px solid rgba(255,255,255,0.6);
+			border-radius:3px;
+			font-size: 20px; 
+			font-weight: bold;
+			color: #185c45;
+			font-family: "glyphicons-halflings-regular";
+			text-align: center;
+			position: absolute;
+			top: 10px;
+			right: 150px;
+			opacity: 0.8;
+			cursor: pointer;
+			transform: scale(1);
+}
+
+
+#btnupload
+		{
+			display: block;
+			width: 100px;
+			height: 43px;
+			padding: 15px;
+			background-color: white;
+			border:1px solid rgba(255,255,255,0.6);
+			border-radius:3px;
+			font-size: 20px; 
+			font-weight: bold;
+			color: #185c45;
+			font-family: "glyphicons-halflings-regular";
+			text-align: center;
+			position: absolute;
+			top: 10px;
+			right: 250px;
+			opacity: 0.8;
+			cursor: pointer;
+			transform: scale(1);
+		}
+#btnupload:hover{
+	color:#408080;
+}
+
+		#A{
+			display: block;
+			width: 30px;
+			height: 30px;
+			background-color:#97E4C9 ;
+			opacity: 0.5;
+			position: absolute;
+			top:6px;
+			left: 110px;
+			animation:myfirst 3.5s infinite linear  ;
+	
+		}
+		
+			
+		#B{
+			display: block;
+			width: 100px;
+			height: 100px;
+			background-color:#97E4C9 ;
+			opacity: 0.5;
+			position: absolute;
+			top:6px;
+			left: 310px;
+			animation:myfirst 5s infinite linear  ;
+		}
+		#C{
+			display: block;
+			width: 20px;
+			height: 20px;
+			background-color:#97E4C9 ;
+			opacity: 0.5;
+			position: absolute;
+			top:6px;
+			left: 510px;
+			animation:mysecond 6s infinite linear  ;
+	
+		}
+		#D{
+			display: block;
+			width: 120px;
+			height: 120px;
+			background-color:#97E4C9 ;
+			opacity: 0.5;
+			position: absolute;
+			top:6px;
+			left: 710px;
+			animation:mysecond 3.5s infinite linear  ;
+			
+		}
+		#E{
+			display: block;
+			width: 20px;
+			height: 20px;
+			background-color:#97E4C9 ;
+			opacity: 0.5;
+			position: absolute;
+			top:6px;
+			left: 1010px;
+			animation:myfirst 2.5s infinite linear  ;
+	
+		}
+		#F{
+			display: block;
+			width: 40px;
+			height: 40px;
+			background-color:#97E4C9 ;
+			opacity: 0.5;
+			position: absolute;
+			top:6px;
+			left: 1210px;
+			animation:mysecond 7s infinite linear ;
+			
+	
+		}
+
+
+		@keyframes myfirst
+{
+0%   {transform: translate(0px,600px) rotate(0deg) scale(1);}
+20%  {transform: translate(0px,400px) rotate(20deg) scale(1.05);}
+40%  {transform: translate(0px,200px) rotate(40deg) scale(1.1);}
+60%  {transform: translate(0px,0px) rotate(60deg) scale(1.15);}
+80%  {transform: translate(0px,-200px) rotate(80deg) scale(1.2);}
+100% {transform: translate(0px,-400px) rotate(100deg) scale(1.25);}
+}
+
+
+		@keyframes mysecond
+{
+0%   {transform: translate(0px,280px) rotate(0deg) scale(1);}
+20%  {transform: translate(0px,200px) rotate(-30deg) scale(1.05);}
+40%  {transform: translate(0px,100px) rotate(-60deg) scale(1.1);}
+60%  {transform: translate(0px,0px) rotate(-90deg) scale(1.15);}
+80%  {transform: translate(0px,-100px) rotate(-120deg) scale(1.2);}
+100% {transform: translate(0px,-200px) rotate(-150deg) scale(1.25);}
+}
